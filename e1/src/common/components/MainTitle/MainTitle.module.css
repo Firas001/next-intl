@@ -1,0 +1,4 @@
+.gradientLine{
+    background: var(--mantine-primary-gradient);
+    height: var(--divider-size-xl);;
+}

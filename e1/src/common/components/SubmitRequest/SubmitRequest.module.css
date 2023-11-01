@@ -1,0 +1,37 @@
+.wrapper {
+    align-items: center;
+    padding-top: calc(var(--mantine-spacing-xl) * 1.5);
+    padding-bottom: calc(var(--mantine-spacing-xl) * 1.5);
+    padding-left: calc(var(--mantine-spacing-xl) * 3);
+    padding-right: calc(var(--mantine-spacing-xl) * 3);
+
+    border-radius: var(--mantine-radius-lg);
+    background: var(--gradient-secondery-bg, linear-gradient(225deg, #F1F1F5 0%, #E4ECF7 100%));
+
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        flex-direction: column;
+        padding-top: 0rem !important;
+        padding-left: rem(30px) !important;
+        padding-right: rem(30px) !important;
+    }
+}
+
+.title {
+    line-height: 70px;
+    padding-right: 100px;
+    padding-left: 0;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        padding: 3rem 0 !important;
+        text-align: center !important;
+        font-size: x-large !important;
+    }
+
+    @mixin rtl {
+        padding-left: 100px;
+        padding-right: 0;
+    }
+
+
+}

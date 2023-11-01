@@ -1,0 +1,27 @@
+.body {
+    align-items: center;
+    padding: rem(100px);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        max-width: 100%;
+        padding: rem(10px);
+    }
+}
+
+.aboutProject {
+    z-index: 2;
+}
+
+.description {
+    z-index: 2;
+    text-align: justify;
+    /* @mixin rtl {
+        text-align: justify;
+    } */
+}
+
+.flipx {
+    @mixin rtl {
+        transform: scaleX(-1);
+    }
+}

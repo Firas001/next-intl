@@ -1,0 +1,10 @@
+version: '3'
+services:
+  lamahtech-nextjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lamahtech-nextjs
+    ports:
+      - 75:3000
+    restart: always

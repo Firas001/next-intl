@@ -1,0 +1,19 @@
+.blackfw500{
+    background: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 500;
+}
+
+.black{
+    background: black;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.grColor{
+    background: var(--mantine-primary-gradient);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}

@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: true, // Recommended for the `pages` directory, default in `app`.
   swcMinify: true,
+  webpack: (config) => {
+    // this will override the experiments
+    config.experiments = { ...config.experiments, topLevelAwait: true };
+    // this will just update topLevelAwait property of config.experiments
+    // config.experiments.topLevelAwait = true 
+    return config;
+  }
 }
 
-const withNextIntl = require('next-intl/plugin')(
-  './src/i18n.ts'
-);
- 
-module.exports = withNextIntl(nextConfig);
+module.exports = nextConfig

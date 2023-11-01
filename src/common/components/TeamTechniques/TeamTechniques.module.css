@@ -1,0 +1,23 @@
+  .tab {
+    flex-direction: column;
+
+  
+    &[data-active] {
+        background: var(--mantine-primary-gradient);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-weight: 700;
+
+      &:after {
+        height: 0.2rem;
+        content: '';
+        background: var(--mantine-primary-gradient);
+        width: 70%;
+        border-radius: 50px;
+      }
+    }
+
+    @mixin hover {
+        color: var(--mantine-primary-color);
+      }
+  }

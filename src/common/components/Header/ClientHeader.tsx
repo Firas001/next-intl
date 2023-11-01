@@ -28,10 +28,10 @@ export default function ClientHeader({ locale }: { locale: string }) {
 
   const mainLinks = [
     { link: `/`, label: data("home") },
-    { link: `/about`, label: data("about") },
-    { link: `/services`, label: data("services") },
-    { link: `/portfolio`, label: data("portfolio") },
-    { link: `/contact`, label: data("contact") },
+    { link: `#`, label: data("about") },
+    { link: `#`, label: data("services") },
+    { link: `#`, label: data("portfolio") },
+    { link: `#`, label: data("contact") },
   ];
 
   const mainItems = mainLinks.map((item, index) => (
@@ -64,9 +64,7 @@ export default function ClientHeader({ locale }: { locale: string }) {
             <Link className={classes.link} href={pathname} locale={href}>
               {data("language")}
             </Link>
-            {/* <Button onClick={() => router.replace(pathname, { locale: href })}>
-              {data("language")}
-            </Button> */}
+
           </Group>
 
           <Burger

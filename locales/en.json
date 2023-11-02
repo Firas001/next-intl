@@ -1,0 +1,40 @@
+{
+  "home": {
+    "title": "example title",
+    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem",
+    "button": "Change language"
+  },
+  "about": {
+    "title": "About us"
+  },
+
+  "DevelopmentApproach":{
+    "title": "Requirements analysis",
+    "description": "Before the development process, we create a detailed plan that includes the different stages, tasks and resources required. To have a clear vision of the project to organize the work and submit it on time."
+  },
+
+  "SubmitRequest":{
+    "button":"Apply Now",
+    "title":"Don't miss the opportunity to get our special services"
+  },
+
+  "project":{
+    "mainTitle":"Lamah's most prominent projects",
+    "mainDescription":"Our projects",
+    "title":"Lorem Ipsum",
+    "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "readMore":"Read more"
+  },
+
+  "common": {
+    "menu": "Menu",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "language": "العربية",
+    "copyright": "© 2024 All rights reserved. Designed",
+    "company": " Lamah"
+  }
+}

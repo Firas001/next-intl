@@ -1,0 +1,5 @@
+.icon {
+    @mixin rtl {
+        transform: scaleX(-1);
+    }
+}

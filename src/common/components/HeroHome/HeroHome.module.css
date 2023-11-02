@@ -1,19 +1,26 @@
-.blackfw500{
+.blackfw500 {
     background: black;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-weight: 500;
 }
 
-.black{
+.black {
     background: black;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 
 }
 
-.grColor{
+.grColor {
     background: var(--mantine-primary-gradient);
-    -webkit-text-fill-color: transparent; 
-    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+    line-height: 80px;
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        font-size: 35px;
+        line-height: 60px;
+    }
 }

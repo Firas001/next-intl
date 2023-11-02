@@ -1,0 +1,46 @@
+/* Desktop Section Style */
+
+.body {
+    align-items: center;
+    padding: rem(100px);
+
+    @media (max-width: $mantine-breakpoint-sm) {
+        max-width: 100%;
+        padding: rem(10px);
+    }
+}
+
+.aboutProject {
+    z-index: 2;
+}
+
+.description {
+    z-index: 2;
+    text-align: justify;
+}
+
+.flipx {
+    @mixin rtl {
+        transform: scaleX(-1);
+    }
+}
+
+/* Mobile Section Style */
+
+.section {
+    padding-top: var(--mantine-spacing-md);
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+    padding-bottom: var(--mantine-spacing-md);
+}
+
+.image {
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+    padding: 25px;
+}
+
+.imagesection {
+    border-radius: 6px;
+    margin: 0px;
+
+}
